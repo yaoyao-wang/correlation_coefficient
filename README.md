@@ -10,13 +10,13 @@ Correlation coefficient formulas are used to find how strong a relationship is b
 
 A result of zero indicates no relationship at all.
 
-![Image of Yaktocat](https://github.com/yaonology/PineScript/blob/master/Correlation%20Coefficient/image/Correlation.png)
+![](image/Correlation.png)
 
 There are several types of correlation coefficient formulas.
 
 One of the most commonly used formulas in stats is Pearson’s correlation coefficient formula. 
 
-![Image of Yaktocat](https://github.com/yaonology/PineScript/blob/master/Correlation%20Coefficient/image/Correlation_Coefficient_Formula.png)
+![](image/Correlation_Coefficient_Formula.png)
 
 ### 2. Pinescript Tutorial
 #### · Initial Setting 
