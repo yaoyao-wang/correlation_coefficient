@@ -22,22 +22,26 @@ One of the most commonly used formulas in stats is Pearson’s correlation coeff
 #### · Initial Setting 
 
 ```
+/ © Yaonology
 //@version=4
+
+//Step One: Initial Setting
 study("Correlation Coefficient", overlay = false)
 ```
 
 #### · Parameter Setting 
 
 ```
-period = input(title = "period", type=input.integer, defval=240)            // Set the number of bars back
-ticker = input(title="Symbol", type = input.symbol, defval= "NASDAQ:AAPL")  // Get the other stock's name that we want to compare
-ticker_price_data = security(ticker, "D", close)                            // Get the close price of the other stock
-cc = correlation(ticker_price_data, close, period)                          // Calculate Correlation Coefficient
-
+//Step Two: Parameter Setting
+period = input(title = "period", type=input.integer, defval=240) // Set the number of bars back
+ticker = input(title="Symbol", type = input.symbol, defval= "NASDAQ:AAPL") // Get the other stock's name that we want to compare
+ticker_price_data = security(ticker, "D", close) // Get the close price of the other stock
+cc = correlation(ticker_price_data, close, period) // Calculate Correlation Coefficient
 ```
 
 #### · Plotting 
 ```
+//Step Three: Plot
 plot(cc, color = cc > 0 ? color.green : color.red)
 hline(0, color = color.gray, linestyle = hline.style_solid, linewidth = 1)
 hline(0.75, color = color.gray, linestyle = hline.style_dashed, linewidth = 1)
