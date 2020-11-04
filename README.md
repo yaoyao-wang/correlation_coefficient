@@ -1,3 +1,5 @@
+[![Correlation Coefficient PineScript TradingView Code-along Tutorial | Trading Algorithm](https://res.cloudinary.com/marcomontalbano/image/upload/v1604454427/video_to_markdown/images/youtube--YdBbEyWt_p4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=YdBbEyWt_p4&feature=youtu.be "Correlation Coefficient PineScript TradingView Code-along Tutorial | Trading Algorithm")
+
 ## Correlation Coefficient 
 ### 1. Introduction & Function
 Correlation coefficients are used in statistics to measure how strong a relationship is between two variables, which in our case is, how strong a relationship is between two stocks. 
